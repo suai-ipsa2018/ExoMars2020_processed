@@ -2,6 +2,8 @@
 *.d
 
 # Compiled Object files
+Debug/
+Release/
 *.slo
 *.lo
 *.o
@@ -30,3 +32,18 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio 
+.vs/
+*.tlog
+*.lastbuildstate
+*.iobj
+*.ipdb
+*.pdb
+*.ilk
+*.idb
+
+# Generated
+*.log
+*.vcd
+*.db
