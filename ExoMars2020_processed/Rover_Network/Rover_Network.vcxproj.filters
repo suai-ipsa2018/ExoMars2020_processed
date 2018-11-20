@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Instruments">
+      <UniqueIdentifier>{c4ee33c5-acc8-4fc8-b0f8-2dde33688d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Instruments">
+      <UniqueIdentifier>{afef659c-7617-4701-9fed-af65ffdd9074}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Adron.h">
+      <Filter>Fichiers d%27en-tête\Instruments</Filter>
+    </ClInclude>
+    <ClInclude Include="CLUPI.h">
+      <Filter>Fichiers d%27en-tête\Instruments</Filter>
+    </ClInclude>
+    <ClInclude Include="Drill.h">
+      <Filter>Fichiers d%27en-tête\Instruments</Filter>
+    </ClInclude>
+    <ClInclude Include="Ma_MISS.h">
+      <Filter>Fichiers d%27en-tête\Instruments</Filter>
+    </ClInclude>
+    <ClInclude Include="MicrOmega.h">
+      <Filter>Fichiers d%27en-tête\Instruments</Filter>
+    </ClInclude>
+    <ClInclude Include="MOMA.h">
+      <Filter>Fichiers d%27en-tête\Instruments</Filter>
+    </ClInclude>
+    <ClInclude Include="RLS.h">
+      <Filter>Fichiers d%27en-tête\Instruments</Filter>
+    </ClInclude>
+    <ClInclude Include="WISDOM.h">
+      <Filter>Fichiers d%27en-tête\Instruments</Filter>
+    </ClInclude>
+    <ClInclude Include="crc.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="helperlib.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="io_port.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="networkunit.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="printunit.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="switchunit.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Adron.cpp">
+      <Filter>Fichiers sources\Instruments</Filter>
+    </ClCompile>
+    <ClCompile Include="CLUPI.cpp">
+      <Filter>Fichiers sources\Instruments</Filter>
+    </ClCompile>
+    <ClCompile Include="Drill.cpp">
+      <Filter>Fichiers sources\Instruments</Filter>
+    </ClCompile>
+    <ClCompile Include="Ma_MISS.cpp">
+      <Filter>Fichiers sources\Instruments</Filter>
+    </ClCompile>
+    <ClCompile Include="MicrOmega.cpp">
+      <Filter>Fichiers sources\Instruments</Filter>
+    </ClCompile>
+    <ClCompile Include="MOMA.cpp">
+      <Filter>Fichiers sources\Instruments</Filter>
+    </ClCompile>
+    <ClCompile Include="RLS.cpp">
+      <Filter>Fichiers sources\Instruments</Filter>
+    </ClCompile>
+    <ClCompile Include="WISDOM.cpp">
+      <Filter>Fichiers sources\Instruments</Filter>
+    </ClCompile>
+    <ClCompile Include="crc.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="helperlib.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="io_port.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="networkunit.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="printunit.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="switchunit.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="main_rover.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
