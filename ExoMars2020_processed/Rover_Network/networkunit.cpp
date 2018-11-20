@@ -18,7 +18,7 @@ NetworkUnit::NetworkUnit(sc_module_name mn, double speed, bool verbose) :
 	router("router", 32, verbose),
 	network_speed(speed)
 {
-	tf = sc_create_vcd_trace_file("traces/network");
+	tf = sc_create_vcd_trace_file("traces/rover_network");
 	sc_trace(tf, CLUPI_channel, "CLUPI_channel");
 	sc_trace(tf, Drill_channel, "Drill_channel");
 	sc_trace(tf, Adron_channel, "Adron_channel");

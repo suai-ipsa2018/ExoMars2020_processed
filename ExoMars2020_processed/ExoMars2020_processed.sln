@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mast_Network", "Mast_Networ
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rover_Network", "Rover_Network\Rover_Network.vcxproj", "{D6C6725C-660A-4F5C-85D1-95690D65D2DC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Create_Two_Processes", "Create_Two_Processes\Create_Two_Processes.vcxproj", "{A519BFA5-D770-4055-832D-0D7090DB8874}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{D6C6725C-660A-4F5C-85D1-95690D65D2DC}.Release|x64.Build.0 = Release|x64
 		{D6C6725C-660A-4F5C-85D1-95690D65D2DC}.Release|x86.ActiveCfg = Release|Win32
 		{D6C6725C-660A-4F5C-85D1-95690D65D2DC}.Release|x86.Build.0 = Release|Win32
+		{A519BFA5-D770-4055-832D-0D7090DB8874}.Debug|x64.ActiveCfg = Debug|x64
+		{A519BFA5-D770-4055-832D-0D7090DB8874}.Debug|x64.Build.0 = Debug|x64
+		{A519BFA5-D770-4055-832D-0D7090DB8874}.Debug|x86.ActiveCfg = Debug|Win32
+		{A519BFA5-D770-4055-832D-0D7090DB8874}.Debug|x86.Build.0 = Debug|Win32
+		{A519BFA5-D770-4055-832D-0D7090DB8874}.Release|x64.ActiveCfg = Release|x64
+		{A519BFA5-D770-4055-832D-0D7090DB8874}.Release|x64.Build.0 = Release|x64
+		{A519BFA5-D770-4055-832D-0D7090DB8874}.Release|x86.ActiveCfg = Release|Win32
+		{A519BFA5-D770-4055-832D-0D7090DB8874}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

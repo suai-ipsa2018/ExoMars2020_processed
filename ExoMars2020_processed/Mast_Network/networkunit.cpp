@@ -12,7 +12,7 @@ NetworkUnit::NetworkUnit(sc_module_name mn, double speed, bool verbose) :
 	router("router", 32, verbose),
 	network_speed(speed)
 {
-	tf = sc_create_vcd_trace_file("traces/network");
+	tf = sc_create_vcd_trace_file("traces/mast_network");
 	sc_trace(tf, PanCam_channel, "PanCam_channel");
 	sc_trace(tf, NavCam_channel, "NavCam_channel");
 	sc_trace(tf, ISEM_channel, "ISEM_channel");
