@@ -1,10 +1,6 @@
 #pragma once
 #include "systemc.h"
 
-#include "PanCam.h"
-#include "NavCam.h"
-#include "ISEM.h"
-
 #include "CLUPI.h"
 #include "Drill.h"
 #include "Adron.h"
@@ -34,28 +30,21 @@ public:
 
 private:
 	sc_time delay_between_bytes;
-    
-	/*µPanCam m_PanCam;
-	NavCam m_NavCam;
-	ISEM m_ISEM;
 
 	CLUPI m_CLUPI;
-	Drill m_Drill;*/
+	Drill m_Drill;
 	Adron m_Adron;
-	/*WISDOM m_WISDOM;
+	WISDOM m_WISDOM;
 	Ma_MISS m_Ma_MISS;
 	MicrOmega m_MicrOmega;
 	RLS m_RLS;
-	MOMA m_MOMA;*/
+	MOMA m_MOMA;
 
 	PrintUnit pu;
 
 	SwitchUnit router;
 
-	io_channel PanCam_channel{ "PanCam_channel" },
-		NavCam_channel{ "NavCam_channel" },
-		ISEM_channel{ "ISEM_channel" },
-		CLUPI_channel{ "CLUPI_channel" },
+	io_channel CLUPI_channel{ "CLUPI_channel" },
 		Drill_channel{ "Drill_channel" },
 		Adron_channel{ "Adron_channel" },
 		WISDOM_channel{ "WISDOM_channel" },

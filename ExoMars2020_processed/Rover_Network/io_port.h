@@ -23,7 +23,7 @@ public:
 class io_channel : public io_if, public sc_prim_channel /// channel using io_if
 {
 public:
-	io_channel(sc_module_name mn, sc_time transmission_time_=sc_time(1./48e6, SC_SEC), int	error_frequency_=40);
+	io_channel(sc_module_name mn, sc_time transmission_time_=sc_time(1./48e6, SC_SEC), int	error_frequency_=0);
     friend void sc_trace(sc_trace_file *_f, const io_channel& object, std::string name_file);
 private:
     sc_uint<16> cur_d, //!< Current data
