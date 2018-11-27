@@ -5,7 +5,7 @@
 
 int sc_main(int argc, char *argv[])
 {
-	bool verbose(false);
+	bool verbose(true);
 	for (int i = 1; i < argc; i++)
 		if (std::string(argv[i]) == "-v") verbose = true;
 	
