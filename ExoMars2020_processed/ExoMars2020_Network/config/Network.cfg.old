@@ -1,0 +1,22 @@
+-- Part 1 --
+Drill : 37
+PrintUnit : 32
+Adron : 38
+WISDOM : 39
+Ma_MISS : 40
+MicrOmega : 41
+RLS : 42
+MOMA : 43
+
+Adron -> WISDOM
+WISDOM -> PrintUnit
+
+
+-- Part 2 --
+PrintUnit : 32
+PanCam : 33
+NavCam : 34
+ISEM : 35
+CLUPI : 36
+
+ISEM -> PanCam
