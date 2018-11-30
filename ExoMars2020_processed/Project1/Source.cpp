@@ -5,7 +5,10 @@
 #include <vector>
 #include <Windows.h>
 
-int main(int argc, const char** argv) {
+int main(int argc, const char** argv) 
+{
+	system("/c/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe ");
+
 	unsigned num_cpus = std::thread::hardware_concurrency();
 	std::cout << "Launching " << num_cpus << " threads\n";
 
@@ -69,6 +72,7 @@ int main(int argc, const char** argv) {
 	for (auto& t : threads) {
 		t.join();
 	}
+
 	system("PAUSE");
 	return 0;
 }
